@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutoClickPro"
         mc:Ignorable="d"
-        Title="Chi tiết kịch bản" Height="450" Width="800">
+        Title="Chi tiết kịch bản"  Top="0" Left="0" WindowState="Maximized" Background="#FF444444" WindowStyle="None">
     <Grid>
-        
+        <Image x:Name="picturebox" MouseMove="picturebox_MouseMove" MouseDown="picturebox_MouseDown" MouseUp="picturebox_MouseUp"/>
+
     </Grid>
 </Window>
